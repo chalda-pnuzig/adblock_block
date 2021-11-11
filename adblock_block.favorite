@@ -1,6 +1,6 @@
 javascript:(()=>{
     let removeClass = ['.has--adblock','.tie-popup-is-opend'];
-    let removeEl = ['.bck-adblock','#tie-popup-adblock','#paywall_wrapper','fc-ab-root'];
+    let removeEl = ['.bck-adblock','#tie-popup-adblock','#paywall_wrapper','.fc-ab-root'];
     let removeOverflow = ['body','html'];
     
     removeClass.forEach(c=>document.querySelectorAll(c).forEach(e=>e.classList.remove(c.replace('.','')))); 
